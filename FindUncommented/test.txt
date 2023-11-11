@@ -1,0 +1,14 @@
+# функция вычисляет сумму всех переданных чисел
+def sum_all(*args):
+    return sum(args)
+
+# функция возвращает количество переданных аргументов
+def count_args(*args):
+    return len(args)
+
+# функция вычисляет факториал переданного числа
+def fact(n):
+    res = 1
+    for i in range(1, n + 1):
+        res *= i
+    return res
